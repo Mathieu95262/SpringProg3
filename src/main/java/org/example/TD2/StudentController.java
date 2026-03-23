@@ -1,4 +1,4 @@
-package org.example;
+package org.example.TD2;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
