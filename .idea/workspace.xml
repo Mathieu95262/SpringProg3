@@ -15,10 +15,17 @@
       <entry key="_/home/mathieu/HEI/S3-S4/Prog3/Td2-Intro-Spring" value="3B4ABUdTdAWa1io17SlTfrQvR1K" />
     </persistenceIdMap>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3B4ABUdTdAWa1io17SlTfrQvR1K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,6 +36,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Main (1).executor": "Run",
     "Spring Boot.Main.executor": "Run",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/mathieu/HEI/S3-S4/Prog3/Td2-Intro-Spring",
@@ -36,7 +44,33 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Main (2)">
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Td2-Intro-Spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="TD4.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TD4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Td2-Intro-Spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="TD3.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TD3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Td2-Intro-Spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
@@ -44,6 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main (2)" />
+        <item itemvalue="Spring Boot.Main (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
