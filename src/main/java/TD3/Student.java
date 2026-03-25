@@ -1,4 +1,4 @@
-package org.example.TD2;
+package TD3;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -7,6 +7,4 @@ public record Student(
         @JsonProperty("FirstName") String firstName,
         @JsonProperty("LastName") String lastName,
         @JsonProperty("Age") int age
-) {
-}
-
+) {}

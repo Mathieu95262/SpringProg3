@@ -1,4 +1,4 @@
-package org.example.TD2;
+package TD2;
 
 import org.springframework.stereotype.Service;
 
