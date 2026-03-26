@@ -8,8 +8,6 @@ import java.util.stream.Collectors;
 
 @Service
 public class StudentService {
-
-    // Stockage en memoire vive (liste en RAM).
     private final List<Student> students = new ArrayList<>();
 
     public synchronized void addAll(List<Student> newStudents) {
