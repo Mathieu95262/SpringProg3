@@ -4,10 +4,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Vérifie la présence des attributs obligatoires des objets Student.
- * En cas de problème, lève une {@link BadRequestException}.
- */
 @Service
 public class StudentValidator {
 
@@ -17,7 +13,6 @@ public class StudentValidator {
 
     public void validate(List<Student> newStudents) {
         if (newStudents == null) {
-            // Hors de la question du SRP mais cohérent: les attributs requis ne peuvent pas exister.
             throw new BadRequestException("NewStudents cannot be null");
         }
 

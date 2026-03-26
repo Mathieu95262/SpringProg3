@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56334189-6de8-401f-a469-e7ac48737e5c" name="Changes" comment="" />
+    <list default="true" id="56334189-6de8-401f-a469-e7ac48737e5c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0,
   &quot;fromUser&quot;: false
@@ -34,17 +39,49 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.Main (1).executor": "Run",
+    "Spring Boot.Main (2).executor": "Run",
+    "Spring Boot.Main (3).executor": "Run",
     "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "TD4",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/mathieu/HEI/S3-S4/Prog3/Td2-Intro-Spring",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.Main (2)">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="Main" value="FAILED" />
+              <entry key="Main (1)" value="STOPPED" />
+              <entry key="Main (2)" value="FAILED" />
+              <entry key="Main (3)" value="FAILED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main (3)">
     <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Td2-Intro-Spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="TD4.Main" />
@@ -71,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Td2-Intro-Spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="TD2.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TD2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Td2-Intro-Spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
@@ -80,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main (3)" />
         <item itemvalue="Spring Boot.Main (2)" />
         <item itemvalue="Spring Boot.Main (1)" />
       </list>
