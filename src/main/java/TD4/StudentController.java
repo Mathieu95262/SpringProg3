@@ -43,12 +43,10 @@ public class StudentController {
     )
     public ResponseEntity<?> addStudents(@RequestBody List<Student> students) {
         try {
-            // SRP : la validation n'est pas dans le controller.
             studentValidator.validate(students);
             studentService.addAll(students);
             return ResponseEntity.status(HttpStatus.CREATED).body(studentService.getAll());
         } catch (BadRequestException e) {
-            // SRP : le Validator lève l'exception, le controller la transforme en ResponseEntity.
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
                     .header("Content-Type", "text/plain")
